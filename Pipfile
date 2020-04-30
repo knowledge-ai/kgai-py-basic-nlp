@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+pytest = "*"
+
+[packages]
+tox = "*"
+python-dotenv = "*"
+kgai-py-commons = {editable = true,git = "https://github.com/knowledge-ai/kgai-py-commons"}
+torch = "*"
+torchvision = "*"
+tqdm = "*"
+boto3 = "*"
+requests = "*"
+regex = "*"
+sentencepiece = "*"
+sacremoses = "*"
+transformers = "*"
+spacy = "*"
+spacy-lookups-data = "*"
+xxhash = "*"
+langdetect = "*"
+
+[requires]
+python_version = "3.7"
